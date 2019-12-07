@@ -23,8 +23,8 @@ func Test_FetchUser(t *testing.T) {
 	}
 
 	// go-vcr のレコーダを生成
-	// 通信内容は /fixtures/qiita に保存される
-	r, _ := recorder.New("fixtures/qiita")
+	// 通信内容は ../fixtures/qiita に保存される
+	r, _ := recorder.New("../fixtures/qiita")
 	defer r.Stop()
 
 	customHTTPClient := &http.Client{
