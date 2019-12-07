@@ -1,0 +1,52 @@
+---
+version: 1
+interactions:
+- request:
+    body: ""
+    form: {}
+    headers: {}
+    url: https://qiita.com/api/v2/users/yyh-gl
+    method: GET
+  response:
+    body: "{\"description\":\"東京でエンジニアしてます／CLI名刺 $ npx yyh-gl／メインは個人ブログです\U0001F4DD\",\"facebook_id\":\"\",\"followees_count\":19,\"followers_count\":18,\"github_login_name\":\"yyh-gl\",\"id\":\"yyh-gl\",\"items_count\":11,\"linkedin_id\":\"\",\"location\":\"Tokyo,
+      Japan\",\"name\":\"\",\"organization\":\"\",\"permanent_id\":119088,\"profile_image_url\":\"https://qiita-image-store.s3.amazonaws.com/0/119088/profile-images/1535528464\",\"team_only\":false,\"twitter_screen_name\":null,\"website_url\":\"https://yyh-gl.github.io/tech-blog/\"}"
+    headers:
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 07 Dec 2019 07:27:05 GMT
+      Etag:
+      - W/"a6adaa36bf27d2045a25659539dcdae5"
+      Rate-Limit:
+      - "60"
+      Rate-Remaining:
+      - "56"
+      Rate-Reset:
+      - "1575706459"
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Server:
+      - nginx
+      Strict-Transport-Security:
+      - max-age=2592000
+      Vary:
+      - Origin
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-Request-Id:
+      - f0ca74f0-4aae-4d0f-b6f9-ec08b0407b56
+      X-Runtime:
+      - "0.082646"
+      X-Xss-Protection:
+      - 1; mode=block
+    status: 200 OK
+    code: 200
+    duration: ""
