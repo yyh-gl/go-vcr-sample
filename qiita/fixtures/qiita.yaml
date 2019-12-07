@@ -16,15 +16,15 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Sat, 07 Dec 2019 07:27:05 GMT
+      - Sat, 07 Dec 2019 07:59:49 GMT
       Etag:
       - W/"a6adaa36bf27d2045a25659539dcdae5"
       Rate-Limit:
       - "60"
       Rate-Remaining:
-      - "56"
+      - "48"
       Rate-Reset:
-      - "1575706459"
+      - "1575706458"
       Referrer-Policy:
       - strict-origin-when-cross-origin
       Server:
@@ -42,9 +42,9 @@ interactions:
       X-Permitted-Cross-Domain-Policies:
       - none
       X-Request-Id:
-      - f0ca74f0-4aae-4d0f-b6f9-ec08b0407b56
+      - 7b71099a-9461-4573-9267-b36cbc6ee9cd
       X-Runtime:
-      - "0.082646"
+      - "0.194767"
       X-Xss-Protection:
       - 1; mode=block
     status: 200 OK

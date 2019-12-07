@@ -15,12 +15,12 @@ func NewClient(c *http.Client) Client {
 }
 
 type User struct {
-	ID string
+	ID       string
 	Location string
 }
 
 func (c Client) FetchUser(id string) (user *User) {
-	req, _ := http.NewRequest("GET", "https://qiita.com/api/v2/users/" + id, nil)
+	req, _ := http.NewRequest("GET", "https://qiita.com/api/v2/users/"+id, nil)
 
 	resp, _ := c.Do(req)
 	defer resp.Body.Close()
