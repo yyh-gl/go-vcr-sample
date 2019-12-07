@@ -1,6 +1,7 @@
 package qiita_test
 
 import (
+	"net/http"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -21,8 +22,10 @@ func Test_FetchUser(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		qiitaClient := qiita.NewClient(http.DefaultClient)
+
 		t.Run(tt.testCase, func(t *testing.T) {
-			user := qiita.FetchUser(tt.id)
+			user := qiitaClient.FetchUser(tt.id)
 			assert.Equal(t, tt.wantLocation, user.Location)
 		})
 	}
